@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 
 **Date:** 24 November 2026
-**Reference Number:** (add yours)
+**Reference Number:** 26017238
 **Name:** Krishna Prasath
 
 ## Problem Title
@@ -41,21 +41,4 @@ KisanSetu is a crop-to-order direct trade platform that links farmers and FPOs w
 ### How it addresses the problem
 - Removes commission agents and multiple wholesalers by connecting buyers and sellers directly.
 - Pre-orders reduce distress selling and wastage, because demand is known before harvest.
-- Pooled routes lower transport cost per kg, which allows lower consumer prices and higher farmer share.
-- Price transparency gives farmers bargaining power and builds consumer trust.
-
-### Innovation and uniqueness
-- Crop-to-order planning instead of a plain "list and wait" marketplace.
-- Price Trace QR makes the farmer's share of the final price visible to the consumer.
-- Shared delivery trips by locality, supported by village hubs for grading.
-- Voice-first Tamil and English interface for farmers with low digital literacy.
-
----
-
-## Technical Approach
-
-### Architecture diagram
-```mermaid
-flowchart TD
-    A[Farmer app<br/>voice, Tamil] --> P
-    B[Village hub<br/>grade, weigh]
+- Pooled routes lower transport
