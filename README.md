@@ -1,12 +1,13 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+
+**Date:** 24 November 2026
+**Reference Number:** (add yours)
+**Name:** Krishna Prasath
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
 
-## Problem Creater's Organization
+## Problem Creator's Organization
 Ministry of Consumer Affairs, Food & Public Distribution
 
 ## Theme
@@ -14,39 +15,47 @@ Agriculture, FoodTech & Rural Development
 
 ## Problem Description
 Expected Solution: Create a digital marketplace that:
-
-• Connects farmers/FPOs directly with consumers and bulk buyers.
-• Provides logistics support.
-• Uses AI for demand forecasting and route optimization.
+- Connects farmers/FPOs directly with consumers and bulk buyers.
+- Provides logistics support.
+- Uses AI for demand forecasting and route optimization.
 
 Benefits:
+- Better prices for farmers.
+- Lower prices for consumers.
+- Reduced supply chain inefficiencies.
 
-• Better prices for farmers.
-• Lower prices for consumers.
-• Reduced supply chain inefficiencies.
+---
 
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+## Proposed Solution: KisanSetu
+
+KisanSetu is a crop-to-order direct trade platform that links farmers and FPOs with consumers, retailers and bulk buyers, and shows everyone where each rupee goes.
+
+### Detailed explanation
+1. **Crop-to-order:** Buyers pre-order produce for the coming harvest. Farmers and FPOs list expected yield, and the platform matches it to demand by crop, location and date.
+2. **Fair price engine:** Suggests a price band using public mandi and e-NAM price data plus local demand. The farmer can accept or adjust it.
+3. **Village hubs:** FPO centres or local market yards grade and weigh produce, so quality is verified without a middleman.
+4. **Pooled logistics:** Orders from the same area are grouped into shared delivery trips with optimized routes.
+5. **UPI settlement:** The farmer is paid directly after delivery confirmation; the platform fee is deducted automatically.
+6. **Price Trace QR:** Each pack or batch carries a QR code showing the split of the consumer's rupee between farmer, transport, hub and platform fee.
+
+### How it addresses the problem
+- Removes commission agents and multiple wholesalers by connecting buyers and sellers directly.
+- Pre-orders reduce distress selling and wastage, because demand is known before harvest.
+- Pooled routes lower transport cost per kg, which allows lower consumer prices and higher farmer share.
+- Price transparency gives farmers bargaining power and builds consumer trust.
+
+### Innovation and uniqueness
+- Crop-to-order planning instead of a plain "list and wait" marketplace.
+- Price Trace QR makes the farmer's share of the final price visible to the consumer.
+- Shared delivery trips by locality, supported by village hubs for grading.
+- Voice-first Tamil and English interface for farmers with low digital literacy.
+
+---
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
 
-## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
-
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
-
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+### Architecture diagram
+```mermaid
+flowchart TD
+    A[Farmer app<br/>voice, Tamil] --> P
+    B[Village hub<br/>grade, weigh]
